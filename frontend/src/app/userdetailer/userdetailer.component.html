@@ -1,0 +1,23 @@
+<div class="upWindow" >
+    <div class="down">
+      <button routerLink="/home"></button>
+    </div>
+    <div class="upUser">
+      <div class="content1">
+        <h1>Update user</h1>
+        <div class="input">
+          <h3>Firstname</h3>
+          <input type="text" [(ngModel)]="user.firstname" placeholder="Enter Password"><br><br>
+        </div>
+        <!-- <div class="input">
+          <h3>id</h3>
+          <input type="text" [(ngModel)]="user.id" placeholder="Enter id"><br><br>
+        </div> -->
+        <div class="input">
+          <h3>Age</h3>
+          <input type="text" [(ngModel)]="user.age" placeholder="Enter age"><br><br>
+        </div>
+        <button class="addUser" (click)="updateUser()" >Update</button><br><br>
+      </div>
+    </div>
+  </div>

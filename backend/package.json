@@ -1,0 +1,15 @@
+{
+  "name": "hapijsbackend",
+  "version": "1.0.0",
+  "description": "my backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "npm run index.js"
+  },
+  "author": "Zahar",
+  "license": "ISC",
+  "dependencies": {
+    "hapi": "^17.6.0"
+  }
+}
